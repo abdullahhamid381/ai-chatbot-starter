@@ -59,7 +59,19 @@ const toggleChat = ()=>{
       <AnimatePresence>
         {showChatIcon &&(
           <motion.div
-    
+    initial={{opacity:0,y:100}}
+    animate={{opacity:1,y:0}}
+    exit={{opacity:0,y:100}}
+    transition={{duration:0.2}}
+    className="fixed bottom-4 right-4 z-50">
+      <Button
+      ref={chatIconRef}
+      onClick={toggleChat
+      >
+        
+
+      </Button>
+    </motion.div>
         )}
       </AnimatePresence>
     </div>
