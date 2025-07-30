@@ -66,7 +66,7 @@ const toggleChat = ()=>{
     className="fixed bottom-4 right-4 z-50">
       <Button
       ref={chatIconRef}
-      onClick={toggleChat
+      onClick={toggleChat}
       >
         
 
