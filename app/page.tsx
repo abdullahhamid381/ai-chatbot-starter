@@ -32,7 +32,7 @@ const chatIconRef= useRef<HTMLButtonElement>(null)
 useEffect(() => {
   const handleScroll=()=>{
     if(window.scrollY > 200){
-      setShowChatIcon(true)
+      setShowChatIcon(true
     }
     else{
       setIsChatOpen(false)
